@@ -1,0 +1,38 @@
+/* Первый блок Чистка ПК*/
+
+body {
+  background-color: #dddddd;
+}
+
+header h1 {
+  font-size: 48px; /* Изменение размера шрифта */
+  font-family: 'Unageo';
+}
+
+header {
+  background-color: #222; /* Темный фон заголовка */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+margin: 0;
+}
+
+#PC {
+  text-align: center; /* Центрирование содержимого */
+  margin-top: 75px;
+}
+
+.pc-clean {
+  display: inline-block;
+  margin: 10px;
+}
+
+.pc-clean img {
+  width: 500px; /* Ширина изображения */
+  height: auto; /* Автоматическое определение высоты */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+}
