@@ -154,3 +154,10 @@ body {
   #contact h2 {
     color: #fff;
   }
+
+  @media screen and (max-width: 560) {
+    .pc-example img {
+      width: 200px; /* Ширина изображения */
+      height: auto; /* Автоматическое определение высоты */
+    }
+  }
